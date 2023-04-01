@@ -3,6 +3,7 @@ import speech_recognition as sr
 import pyttsx3
 engine = pyttsx3.init()
 listener =sr.Recognizer()
+#Create an open Ai account and generate an api key. Copy the api key and pest it below.
 openai.api_key = "<Pest your openai.api_key here >"
 
 while True:
